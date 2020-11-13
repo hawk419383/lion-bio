@@ -1,0 +1,241 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "王漢宗超明";
+  src: url(wt005.ttf);
+}
+
+@font-face {
+  font-family: "王漢宗注音";
+  src: url(wp010-05.ttf);
+}
+
+.jumbotron {
+  /*background-color: #FFF;*/
+  background-image: url('../img/header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+#cream h1{
+  padding-top: 2rem;
+} 
+
+#local{
+  height: 300px;
+  padding-top: 2rem;
+  
+}
+.main-footer {
+  padding: 10px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  background-image: url('../img/background_img.jpg');
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.breadcrumb {
+  /*background-color: #FFF;*/
+  background-image: url('../img/background_img.jpg');
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: '>';
+}
+
+#footer {
+  
+  margin-top: 10rem;
+ 
+  background-color: #e0e0e0;
+  padding: 0.5rem;
+  position: absolute;bottom: 0;
+}
+
+#footer h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#navbarSupportedContent a:active {
+  background-color: #a0a0a0;
+ 
+}
+
+
+#libon {
+  color: #062722;
+}
+
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+#pup{
+  background-color: white;
+  padding-top: 1rem;
+}
+#ointment{
+  
+}
+#downselect{
+height: 2rem; 
+}
+
+#sptitle {
+
+  width: 100%;
+  height: 100px;
+  padding-bottom: 150%;
+  background-image: url("/img/ledream.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+}
+.marqee {
+	height: 3em;
+	margin: 0 auto;
+	overflow: hidden; 
+	position: absolute;
+  background-color: rgba(0, 0, 0, .4);
+  bottom: 0;
+  
+}
+.marqee h3{
+  padding: 1rem 0;
+  animation: marqee 15s linear infinite;
+  position: absolute;
+  display: flex;
+}
+.marqee h3 a{
+  white-space: nowrap;
+  margin-right: 2em;
+  color: #ffffff;
+}
+.marqee h3:hover{
+  animation: marqee 0s linear infinite;
+  
+}
+@keyframes marqee {
+	0% {
+		left: 100%;
+		transform: translateX(0%);
+	}
+
+	100% {
+		left: 0;
+		transform: translateX(-100%);
+	}
+}
+
+#runbox{
+  width: 100%;
+  height: auto;
+}
+#doubble11{
+  width:100%;
+  height: auto;
+  object-fit: contain;
+}
+#list{
+  margin: 2rem 0;
+}
+@font-face {
+  font-family: “王漢宗超明”;
+  src: url(wt005.ttf);
+}
+
+@font-face {
+  font-family: "王漢宗注音";
+  src: url(wp010-05.ttf);
+}
+#selecttable{
+  padding-top: 2rem;
+  
+ 
+}
+#storeloca{
+  padding: 1rem;
+  
+  
+}
+ #storebox {
+  padding: 1rem;
+  background-color: #fff;
+  border: #062722 1px;
+  
+}
+#product-button{
+  background:    #D0F7AB;
+border-radius: 16px;
+padding:       20px 30px;
+color:         #020202;
+display:       inline-block;
+font:          normal bold 17px/1 "Overlock", cursive;
+text-align:    center;
+border: #fff ;
+}
+
+#product-button:hover{
+  background:    #093315;
+border-radius: 16px;
+padding:       20px 30px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 17px/1 "Overlock", cursive;
+text-align:    center;
+border: #fff ;
+}
+
+
+#story{
+  height: auto;
+  padding: 2rem;
+  background-color: #fff;
+}
+#story p{
+  background-color: rgba(172, 235, 114, 0.3);
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.3rem;
+}
+#story div{
+  background-color: rgba(205, 250, 162, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+
+
+#logo{
+  padding: 1rem;
+  width: 50%;
+  
+}
+#product-card{
+  
+  background-color: #fff;
+  border-radius: 5%;
+  padding: 1rem  1.5rem;
+}

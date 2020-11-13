@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  >
+  <!--php -S 0.0.0.0:5500
+    https://2lv13pakkvqss3lxniszra-on.drv.tw/www/boot-->
+  <link
+    rel="stylesheet"
+    href="css/bootstrap.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="css/my.css"
+  >
+  <title>麗膚寶 Le Derma</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <style type="text/css">
+    .map-container-5 {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0;
+    }
+
+    .map-container-5 iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid mb-0">
+    <div class="container">
+      <header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+        <div class="item mx-auto">
+          <a
+            class="navbar-brand"
+            href="/"
+            aria-label="Bootstrap"
+          >
+            <img
+              style="width:120px; height:200px;"
+              src="img/logo.png"
+              class="img-fluid"
+            />
+          </a>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light"
+    id="navbar"
+  >
+
+    <a class="navbar-brand"></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+    >
+      <ul class="navbar-nav mx-auto">
+        <!--          <li class="nav-item active">
+          <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+        </li>-->
+        <li class="nav-item active">
+          <a
+            class="nav-link mr-5 font-weight-bold"
+            href="index.html"
+          >最新消息</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            產品介紹
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="cream.html"
+            >舒緩護膚霜</a>
+            <a
+              class="dropdown-item"
+              href="ointment.html"
+            >舒涼膏</a>
+            <a
+              class="dropdown-item"
+              href="high-efficiency-AD-soonthing-moisturizer.html"
+            >異膚高效舒緩乳</a>
+            <a
+              class="dropdown-item"
+              href="product_ingredients.html"
+            >產品成份</a>
+            <!--<a class="dropdown-item" href="gift_set.html">禮盒配件</a>-->
+          </div>
+        </li>
+        <!--<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-5 font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            購買資訊
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="member.html">小會員 & 大會員</a>
+            <a class="dropdown-item" href="member_benefits.html">會員權益</a>
+          </div>
+        </li>-->
+        <li class="nav-item">
+          <a
+            class="nav-link mr-5 font-weight-bold"
+            href="store_information.html"
+          >商店資訊</a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link mr-5 font-weight-bold"
+            href="purchase_information.html"
+          >購買資訊</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            關於麗膚寶
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="brand_story.html"
+            >品牌故事</a>
+            <a
+              class="dropdown-item"
+              href="product.idea.html"
+            >產品理念</a>
+            <!--<a class="dropdown-item" href="#">口碑推薦</a>
+            <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
+            <a class="dropdown-item" href="#">加入麗旺</a>
+            <a class="dropdown-item" href="#">English</a>-->
+          </div>
+        </li>
+        <!-- <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle mr-5 font-weight-bold"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          關於麗旺
+        </a>
+        <div
+          class="dropdown-menu"
+          aria-labelledby="navbarDropdown"
+        >
+          <a
+            class="dropdown-item"
+            href="/founder.html"
+          >創辦人</a>
+
+          <a class="dropdown-item" href="#">口碑推薦</a>
+            <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
+            <a class="dropdown-item" href="#">加入麗旺</a>
+            <a class="dropdown-item" href="#">English</a>
+        </div>
+      </li> -->
+        <li class="nav-item">
+          <a
+            class="nav-link mr-5 font-weight-bold"
+            href="Charitable activities.html"
+          >公益活動</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div
+    id="app"
+    class="col-12 mx-auto"
+  >
+    <div class="container ">
+      <div class="col-10 mx-auto">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li
+              class="breadcrumb-item active mx-auto"
+              aria-current="page"
+            >商店資訊</li>
+          </ol>
+        </nav>
+        <h5
+          class="col-12 p-3"
+          align="center"
+        >請選擇商品</h5>
+
+
+
+        <div class=" col-12 d-flex mx-auto flex-wrap">
+          <div
+            v-for="item in product"
+            class="col-12 col-md-4 "
+          >
+            <div
+              id="product-card"
+              class="mx-auto  "
+            >
+              <img
+                v-bind:src="item.img"
+                alt=""
+              >
+
+              <h3 align="center">{{item.name}}</h3>
+              <p align="center">價格:{{item.price}}</p>
+              <p>{{item.info}}</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-12 mx-auto d-flex  flex-wrap p-2">
+
+          <div class="col-12 col-md-4  ">
+            <button
+              id="product-button"
+              class="col-12 "
+              @click="selectproduct('ointment')"
+            >舒涼膏</button>
+          </div>
+
+          <div class="col-12 col-md-4 ">
+            <button
+              id="product-button"
+              class="col-12 "
+              @click="selectproduct('cream')"
+            >舒緩護膚霜</button>
+          </div>
+          <div class="col-12  col-md-4 ">
+            <button
+              id="product-button"
+              class="col-12 "
+              @click="selectproduct('high')"
+            >異膚高效舒緩乳</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div
+        class=" col-9  d-flex mx-auto"
+        id="selecttable"
+        v-if="show"
+      >
+        <div class="col-6 mx-auto ">
+
+          <select
+            v-model="selected"
+            v-on:change="detailsChange"
+            class="col-11 mx-auto"
+            id="downselect"
+          >
+            <option
+              value=""
+              disabled
+              selected
+              hidden
+            >請選擇地區</option>
+            <option
+              v-for="item in aera"
+              :value="item"
+            >{{item}}</option>
+          </select>
+        </div>
+        <div
+          class="col-6  mx-auto "
+          align="right"
+        >
+
+          <select
+            v-model="selected_item"
+            class="col-11 mx-auto"
+            id="downselect"
+          >
+            <option
+              value=""
+              disabled
+              selected
+              hidden
+            >請選擇地區</option>
+            <option
+              v-for="item in city"
+              :value="item"
+            >{{item.city}}</option>
+          </select>
+        </div>
+
+      </div>
+      <div
+        class="col-12  mx-auto d-flex flex-wrap"
+        id="local"
+      >
+
+        <DIV
+          v-for="item in selected_item.store"
+          class=" col-12 col-md-4 "
+          id="storeloca"
+          v-if="show"
+        >
+          <div id="storebox">
+            <div>名稱:{{item.StoreName}}</div>
+
+            <div>地址: <a v-bind:href="item.map">{{item.Addres}}</a></div>
+
+            <div>電話:{{item.phone}}</div>
+
+          </div>
+
+
+        </DIV>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+  <footer
+    id="footer"
+    class="w-100 "
+  >
+
+
+
+    <h3
+      align="center"
+      valign="center"
+      id="libon"
+    >Le Derma麗膚寶,麗旺生技有限公司</h3>
+
+
+
+
+
+
+
+  </footer>
+
+  <!--<div class="container-fluid main-footer text-center">
+      &copy; copyright by 麗旺生技股份有限公司
+    </div>-->
+
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="/js/storeaddr.js"></script>
+
+
+</body>
+
+</html>
