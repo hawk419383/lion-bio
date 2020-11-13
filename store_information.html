@@ -246,11 +246,10 @@
               id="product-card"
               class="mx-auto  "
             >
-              <img
-                v-bind:src="item.img"
-                alt=""
-              >
 
+              <div id="imgbox">
+                <img v-bind:src="item.img">
+              </div>
               <h3 align="center">{{item.name}}</h3>
               <p align="center">價格:{{item.price}}</p>
               <p>{{item.info}}</p>
