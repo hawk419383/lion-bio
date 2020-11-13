@@ -18,23 +18,14 @@
         rel="stylesheet"
         href="css/my.css"
     >
+    <link
+        rel="stylesheet"
+        href="/css/qa.css"
+    >
     <title>麗膚寶 Le Derma</title>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <style type="text/css">
-        .map-container-5 {
-            overflow: hidden;
-            padding-bottom: 56.25%;
-            position: relative;
-            height: 0;
-        }
 
-        .map-container-5 iframe {
-            left: 0;
-            top: 0;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-        }
     </style>
 </head>
 
@@ -125,18 +116,10 @@
                             class="dropdown-item"
                             href="product_ingredients.html"
                         >產品成份</a>
-                        <!--<a class="dropdown-item" href="gift_set.html">禮盒配件</a>-->
+
                     </div>
                 </li>
-                <!--<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle mr-5 font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              購買資訊
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="member.html">小會員 & 大會員</a>
-              <a class="dropdown-item" href="member_benefits.html">會員權益</a>
-            </div>
-          </li>-->
+
                 <li class="nav-item">
                     <a
                         class="nav-link mr-5 font-weight-bold"
@@ -173,39 +156,7 @@
                             class="dropdown-item"
                             href="product.idea.html"
                         >產品理念</a>
-                        <!--<a class="dropdown-item" href="#">口碑推薦</a>
-              <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
-              <a class="dropdown-item" href="#">加入麗旺</a>
-              <a class="dropdown-item" href="#">English</a>-->
-                    </div>
-                </li>
-                <!-- <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle mr-5 font-weight-bold"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            關於麗旺
-          </a>
-          <div
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdown"
-          >
-            <a
-              class="dropdown-item"
-              href="/founder.html"
-            >創辦人</a>
 
-            <a class="dropdown-item" href="#">口碑推薦</a>
-              <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
-              <a class="dropdown-item" href="#">加入麗旺</a>
-              <a class="dropdown-item" href="#">English</a>
-          </div>
-        </li> -->
                 <li class="nav-item dropdown">
                     <a
                         class="nav-link dropdown-toggle mr-5 font-weight-bold"
@@ -250,27 +201,34 @@
   </div> -->
 
 
-    <div class="row justify-content-center no-gutters">
-        <div class="col-12 col-md-12 mx-auto  p-2 d-flex flex-wrap">
 
 
 
+
+    <div
+        id="qa"
+        class="col-12   d-flex  "
+    >
+
+        <div
+            class="col-8  mx-auto"
+            id="question"
+        >
             <div
-                id="qa"
-                class="col-8 mx-auto"
+                id="quesnav"
+                type="button"
+                class="col-12"
+                v-for="item in qa"
             >
-                <div v-for="item in qa">
-                    <div>{{item.ques}}
-                        <div>{{item.ans}}</div>
-                    </div>
-                </div>
-
-
-
+                {{item.ques}}
             </div>
 
         </div>
+
     </div>
+
+
+
 
 
     <footer

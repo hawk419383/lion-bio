@@ -39,11 +39,11 @@
 }
 
 body {
-  background-image: url('../img/background_img.jpg');
+  /* background-image: url('../img/background_img.jpg'); */
   
     position: relative;
   margin: 0;
-  padding-bottom: 6rem;
+  
   min-height: 100%;
 }
 
@@ -63,9 +63,7 @@ img {
 #footer {
   
   background-color: #e0e0e0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+
   width: 100%;
   padding: 1rem;
   
@@ -262,8 +260,7 @@ div img{
     background-color: rgba(114, 230, 94, 0.5);
   }
   #container{
-    
-    padding:5rem 0;
+    min-height: calc(100vh - 70px);
   }
   #imgbox{
     width:100%;  
