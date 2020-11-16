@@ -211,16 +211,20 @@
     >
 
         <div
-            class="col-8  mx-auto"
-            id="question"
+            class="col-12 col-lg-8  mx-auto"
+            id="questions"
         >
             <div
-                id="quesnav"
-                type="button"
-                class="col-12"
+                class="button col-12"
                 v-for="item in qa"
             >
-                {{item.ques}}
+                <div>{{item.ques}}</div>
+                <div
+                    class="hover"
+                    v-for="ques in item.ans"
+                >
+                    <div>{{ques}}</div>
+                </div>
             </div>
 
         </div>
@@ -258,7 +262,11 @@
 
     <!-- <script src="js/popper.min.js"></script> -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+    ></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="/js/Q&A.JS"></script>

@@ -23,6 +23,27 @@
     >
 
     <title>Hello, world!</title>
+    <style>
+        body {
+            background-color: #343434;
+        }
+
+        .button {
+            width: 100px;
+            text-align: center;
+            color: #fff;
+            font-size: 3em;
+        }
+
+        .button:hover .hover {
+            display: block;
+        }
+
+        .hover {
+            display: none;
+            background-color: #ffb2b2;
+        }
+    </style>
 </head>
 
 <body>
@@ -78,33 +99,12 @@
         </a>
     </div> -->
 
-    <Video
-        width="100% "
-        height="70%"
-        autoplay
-    >
-        <source
-            src="/video/舒涼膏公益.mp4"
-            type="video/mp4"
-        >
-
-    </Video>
-    <video
-        width="320"
-        height="240"
-        autoplay
-    >
-        <source
-            src="/video/舒涼膏公益.mp4"
-            type="video/mp4"
-        >
-        <source
-            src="movie.ogg"
-            type="video/ogg"
-        >
-        Your browser does not support the video tag.
-    </video>
-
+    <div class="button">
+        <span>滑我</span>
+        <div class="hover">
+            test
+        </div>
+    </div>
 
 
     <!-- Optional JavaScript -->
