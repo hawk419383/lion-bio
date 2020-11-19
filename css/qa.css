@@ -1,27 +1,58 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body{
-    background-color:#f1f0f0;
+    background-color:#ffffff;
  }
+ #questions{
+   margin: 2rem 0;
+   border: 2px #d3eea8 solid;
+   padding: 2rem;
+   border-radius: 2rem;
+ }
+ 
  .button{
    width:100%;
-   padding: 1rem;
-   color:rgb(32, 30, 30);
-   font-size:.5rem;
-   border-bottom: #343434 1px;
+   border-bottom: 1px #8d8c8c solid;
+   /* border-top: 1px #adaaaa solid ; */
  }
- .button:hover{
-     transition: .3s;
-     background-color: orange;
+ #ans {
+   
+    background-color: rgb(255, 255, 255);
+   width:100%;
+   padding: .5rem;
+   color:rgb(32, 31, 31);
+   font-size:.8rem;
+   font-family: 'Noto Sans TC', sans-serif;
+  
+ }
+ .button:hover #ans{
+     transition: .5s;
+    
+      background-color: #d3eea8;
     width:100%;
     padding: 1.2rem;
-    color:rgb(32, 31, 31);
+    color:rgb(28, 71, 2);
     font-size:1rem;
+    font-size: 1.2rem;
+    
 
  }
- .button:hover .hover{
+ .button:hover .hover div{
+     
    display:block;
+   transition: 1s;
+   height: 100%;
+   
  }
- .hover{
+ 
+ .hover div{
    display:none;
-   background-color:#cfeec0;
+   height: 0px;
+   background-color: #ffffff;
    color: #343434;
+   padding: 0.5rem;
+  
+   
+ }
+ #leaf{
+  width: 5%;
  }

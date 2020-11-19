@@ -214,11 +214,21 @@
             class="col-12 col-lg-8  mx-auto"
             id="questions"
         >
+            <h3 class="mx-auto col-4">常見問題 Q&A</h3>
             <div
                 class="button col-12"
                 v-for="item in qa"
             >
-                <div>{{item.ques}}</div>
+                <div
+                    id="ans"
+                    class=""
+                >{{item.ques}}
+                    <img
+                        src="/img/leaf.png"
+                        alt=""
+                        id="leaf"
+                    >
+                </div>
                 <div
                     class="hover"
                     v-for="ques in item.ans"
@@ -267,6 +277,7 @@
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"
     ></script>
+
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="/js/Q&A.JS"></script>

@@ -43,11 +43,195 @@
             display: none;
             background-color: #ffb2b2;
         }
+
+        #QandA .Question {
+            /*標題的CSS定義*/
+
+            width: 100%;
+
+            border-bottom: 1px #aaa dotted;
+
+        }
+
+        #QandA .Answer {
+            /*內文的CSS定義*/
+
+            display: none;
+
+            width: 100%;
+
+            padding: 10px 0px;
+
+            background: #efefef;
+
+            border-bottom: 1px #aaa dotted;
+
+        }
+
+        #QandA:hover {
+            /*滑鼠移至區塊變色*/
+
+            background: #ebf6f7;
+
+        }
     </style>
 </head>
 
 <body>
+    <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        id="navbar"
+    >
 
+        <a class="navbar-brand"></a>
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+        >
+            <ul class="navbar-nav mx-auto">
+                <!--          <li class="nav-item active">
+            <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+          </li>-->
+                <li class="nav-item  active">
+                    <a
+                        class="nav-link mx-auto  font-weight-bold"
+                        href="index.html"
+                    >最新消息</a>
+                </li>
+                <li class="nav-item  dropdown">
+                    <a
+                        class="nav-link dropdown-toggle mx-auto  font-weight-bold"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        產品介紹
+                    </a>
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="cream.html"
+                        >舒緩護膚霜</a>
+                        <a
+                            class="dropdown-item"
+                            href="ointment.html"
+                        >舒涼膏</a>
+                        <a
+                            class="dropdown-item"
+                            href="high-efficiency-AD-soonthing-moisturizer.html"
+                        >異膚高效舒緩乳</a>
+                        <a
+                            class="dropdown-item"
+                            href="product_ingredients.html"
+                        >產品成份</a>
+                        <!--<a class="dropdown-item" href="gift_set.html">禮盒配件</a>-->
+                    </div>
+                </li>
+                <!--<li class="nav-item  dropdown">
+            <a class="nav-link dropdown-toggle mx-auto  font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              購買資訊
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="member.html">小會員 & 大會員</a>
+              <a class="dropdown-item" href="member_benefits.html">會員權益</a>
+            </div>
+          </li>-->
+                <li class="nav-item ">
+                    <a
+                        class="nav-link mx-auto  font-weight-bold"
+                        href="store_information.html"
+                    >商店資訊</a>
+                </li>
+                <li class="nav-item ">
+                    <a
+                        class="nav-link mx-auto  font-weight-bold"
+                        href="purchase_information.html"
+                    >購買資訊</a>
+                </li>
+                <li class="nav-item  dropdown">
+                    <a
+                        class="nav-link dropdown-toggle mx-auto  font-weight-bold"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        關於麗膚寶
+                    </a>
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="brand_story.html"
+                        >品牌故事</a>
+                        <a
+                            class="dropdown-item"
+                            href="product.idea.html"
+                        >產品理念</a>
+                        <!--<a class="dropdown-item" href="#">口碑推薦</a>
+              <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
+              <a class="dropdown-item" href="#">加入麗旺</a>
+              <a class="dropdown-item" href="#">English</a>-->
+                    </div>
+                </li>
+                <!-- <li class="nav-item  dropdown">
+          <a
+            class="nav-link dropdown-toggle mx-auto  font-weight-bold"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            關於麗旺
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="/founder.html"
+            >創辦人</a>
+
+            <a class="dropdown-item" href="#">口碑推薦</a>
+              <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
+              <a class="dropdown-item" href="#">加入麗旺</a>
+              <a class="dropdown-item" href="#">English</a>
+          </div>
+        </li> -->
+                <li class="nav-item ">
+                    <a
+                        class="nav-link mx-auto  font-weight-bold"
+                        href="Charitable activities.html"
+                    >公益活動</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -98,14 +282,40 @@
             <span class="sr-only">Next</span>
         </a>
     </div> -->
+    <input
+        type="text"
+        id="mail"
+    >
+    <input
+        type="text"
+        id="body"
+    >
+    <button onclick="ShowMeDate()">告訴我今天日期</button>
+    <button onclick="send()">寄信喔</button>
 
-    <div class="button">
-        <span>滑我</span>
-        <div class="hover">
-            test
+    <div id="QandA">
+
+        <p class="Question">Question - 1</p>
+
+        <div class="Answer">
+
+            <p>Answer - 1</p>
+
         </div>
+
     </div>
 
+    <div id="QandA">
+
+        <p class="Question">Question - 2</p>
+
+        <div class="Answer">
+
+            <p>Answer - 2</p>
+
+        </div>
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -114,6 +324,42 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function send() {
+            var mail = document.getElementById('mail').value;
+            var body = document.getElementById('body').value;
+
+            Email.send({
+                SecureToken: "419242e1-c142-4ebd-9027-540aa600bc7c",
+                To: 'hawk419383@gmail.com',
+                From: " hawk419383@gmail.com",
+                Subject: "測試測試",
+                Body: `${mail}${body}`
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+    <script
+        type="text/javascript"
+        src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+
+            $("p.Question").css({
+                cursor: "pointer"
+            }).click(function () {
+
+                $(this).next().toggle("normal");
+
+            });
+
+        });
+    </script>
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"

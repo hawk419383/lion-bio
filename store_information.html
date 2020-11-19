@@ -84,8 +84,8 @@
     >
       <ul class="navbar-nav mx-auto">
         <!--          <li class="nav-item active">
-          <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
-        </li>-->
+      <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+    </li>-->
         <li class="nav-item active">
           <a
             class="nav-link mr-5 font-weight-bold"
@@ -124,18 +124,10 @@
               class="dropdown-item"
               href="product_ingredients.html"
             >產品成份</a>
-            <!--<a class="dropdown-item" href="gift_set.html">禮盒配件</a>-->
+
           </div>
         </li>
-        <!--<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mr-5 font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            購買資訊
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="member.html">小會員 & 大會員</a>
-            <a class="dropdown-item" href="member_benefits.html">會員權益</a>
-          </div>
-        </li>-->
+
         <li class="nav-item">
           <a
             class="nav-link mr-5 font-weight-bold"
@@ -172,39 +164,34 @@
               class="dropdown-item"
               href="product.idea.html"
             >產品理念</a>
-            <!--<a class="dropdown-item" href="#">口碑推薦</a>
-            <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
-            <a class="dropdown-item" href="#">加入麗旺</a>
-            <a class="dropdown-item" href="#">English</a>-->
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            關於我們
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="brand_story.html"
+            >Q&A</a>
+            <a
+              class="dropdown-item"
+              href="product.idea.html"
+            >聯絡我們</a>
+
           </div>
         </li>
-        <!-- <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle mr-5 font-weight-bold"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          關於麗旺
-        </a>
-        <div
-          class="dropdown-menu"
-          aria-labelledby="navbarDropdown"
-        >
-          <a
-            class="dropdown-item"
-            href="/founder.html"
-          >創辦人</a>
-
-          <a class="dropdown-item" href="#">口碑推薦</a>
-            <a class="dropdown-item" href="do_charity_together.html">一起做公益</a>
-            <a class="dropdown-item" href="#">加入麗旺</a>
-            <a class="dropdown-item" href="#">English</a>
-        </div>
-      </li> -->
         <li class="nav-item">
           <a
             class="nav-link mr-5 font-weight-bold"
@@ -214,8 +201,6 @@
       </ul>
     </div>
   </nav>
-
-
   <div
     id="app"
     class="col-12 mx-auto"
@@ -252,7 +237,7 @@
               </div>
               <h3 align="center">{{item.name}}</h3>
               <p align="center">價格:{{item.price}}</p>
-              <p>{{item.info}}</p>
+              <p id="product-p">{{item.info}}</p>
             </div>
 
           </div>

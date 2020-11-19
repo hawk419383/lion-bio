@@ -3,15 +3,7 @@
   margin: 0px;
 }
 
-@font-face {
-  font-family: "王漢宗超明";
-  src: url(wt005.ttf);
-}
-
-@font-face {
-  font-family: "王漢宗注音";
-  src: url(wp010-05.ttf);
-}
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
 
 .jumbotron {
   /*background-color: #FFF;*/
@@ -74,10 +66,21 @@ img {
   margin: 0;
   font-size: 1rem;
 }
-
+.nav-item{
+  padding: 0 1.5rem;
+}
 #navbarSupportedContent a:active {
   background-color: #a0a0a0;
- 
+  
+}
+#navbarSupportedContent li{
+
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+#navbarSupportedContent li:hover{
+  border-bottom: #cdebb4 2px solid;
+  
 }
 
 
@@ -121,18 +124,24 @@ height: 2rem;
   
 }
 .marqee h3{
-  padding: 1rem 0;
+  padding: 1rem 0  0;
   animation: marqee 15s linear infinite;
   position: absolute;
   display: flex;
+ 
 }
 .marqee h3 a{
   white-space: nowrap;
   margin-right: 2em;
   color: #ffffff;
+  text-decoration: none;
+  
 }
 .marqee h3:hover{
-  animation: marqee 0s linear infinite;
+  animation-play-state: paused;
+
+
+  
   
 }
 @keyframes marqee {
@@ -159,15 +168,7 @@ height: 2rem;
 #list{
   margin: 2rem 0;
 }
-@font-face {
-  font-family: “王漢宗超明”;
-  src: url(wt005.ttf);
-}
 
-@font-face {
-  font-family: "王漢宗注音";
-  src: url(wp010-05.ttf);
-}
 #selecttable{
   padding-top: 2rem;
   
@@ -181,7 +182,7 @@ height: 2rem;
  #storebox {
   padding: 1rem;
   background-color: #fff;
-  border: #062722 1px;
+  border: #cdebb4 2px;
   
 }
 #product-button{
@@ -261,6 +262,7 @@ div img{
   }
   #container{
     min-height: calc(100vh - 70px);
+    font-family: 'Noto Sans TC',sans-serif;
   }
   #imgbox{
     width:100%;  
@@ -281,4 +283,10 @@ div img{
     right: 0;  
     margin: auto;
     
+  }
+  @media screen and (min-width: 768px){
+
+    #product-p{
+      display: none;
+    }
   }
