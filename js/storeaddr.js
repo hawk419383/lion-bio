@@ -177,7 +177,7 @@
 
 
     var app = new Vue({
-        el: '#app',
+        el: '#container',
         data() {
             return {
                 show: '',

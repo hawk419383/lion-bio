@@ -74,6 +74,24 @@
             background: #ebf6f7;
 
         }
+
+        span {
+            font-size: 12px;
+        }
+
+        a {
+            color: green;
+        }
+
+        a:hover span {
+            display: none;
+        }
+
+        a:hover:before {
+            color: red;
+            font-size: 24px;
+            content: "ಕನ್ನಡ";
+        }
     </style>
 </head>
 
@@ -282,6 +300,10 @@
             <span class="sr-only">Next</span>
         </a>
     </div> -->
+    <a
+        align="center"
+        href="#"
+    ><span>kannada</span></a>
     <input
         type="text"
         id="mail"

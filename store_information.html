@@ -84,17 +84,17 @@
     >
       <ul class="navbar-nav mx-auto">
         <!--          <li class="nav-item active">
-      <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
-    </li>-->
+          <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+        </li>-->
         <li class="nav-item active">
           <a
-            class="nav-link mr-5 font-weight-bold"
+            class="nav-link mx-auto font-weight-bold"
             href="index.html"
           >最新消息</a>
         </li>
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            class="nav-link dropdown-toggle mx-auto font-weight-bold"
             href="#"
             id="navbarDropdown"
             role="button"
@@ -130,19 +130,19 @@
 
         <li class="nav-item">
           <a
-            class="nav-link mr-5 font-weight-bold"
+            class="nav-link mx-auto font-weight-bold"
             href="store_information.html"
           >商店資訊</a>
         </li>
         <li class="nav-item">
           <a
-            class="nav-link mr-5 font-weight-bold"
+            class="nav-link mx-auto font-weight-bold"
             href="purchase_information.html"
           >購買資訊</a>
         </li>
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            class="nav-link dropdown-toggle mx-auto font-weight-bold"
             href="#"
             id="navbarDropdown"
             role="button"
@@ -167,7 +167,7 @@
 
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle mr-5 font-weight-bold"
+            class="nav-link dropdown-toggle mx-auto font-weight-bold"
             href="#"
             id="navbarDropdown"
             role="button"
@@ -183,27 +183,28 @@
           >
             <a
               class="dropdown-item"
-              href="brand_story.html"
+              href="/Q&A.html"
             >Q&A</a>
             <a
               class="dropdown-item"
-              href="product.idea.html"
+              href="/connection.html"
             >聯絡我們</a>
 
           </div>
         </li>
         <li class="nav-item">
           <a
-            class="nav-link mr-5 font-weight-bold"
+            class="nav-link mx-auto font-weight-bold"
             href="Charitable activities.html"
           >公益活動</a>
         </li>
       </ul>
     </div>
   </nav>
+
   <div
-    id="app"
-    class="col-12 mx-auto"
+    id="container"
+    class="col-12 mx-auto p-2"
   >
     <div class="container ">
       <div class="col-10 mx-auto">
@@ -274,11 +275,11 @@
 
 
       <div
-        class=" col-9  d-flex mx-auto"
+        class=" col-9  d-flex mx-auto flex-wrap"
         id="selecttable"
         v-if="show"
       >
-        <div class="col-6 mx-auto ">
+        <div class="col-12 col-lg-6 mx-auto ">
 
           <select
             v-model="selected"
@@ -298,10 +299,7 @@
             >{{item}}</option>
           </select>
         </div>
-        <div
-          class="col-6  mx-auto "
-          align="right"
-        >
+        <div class="col-12 col-lg-6  mx-auto ">
 
           <select
             v-model="selected_item"
@@ -313,7 +311,7 @@
               disabled
               selected
               hidden
-            >請選擇地區</option>
+            >請選擇縣市</option>
             <option
               v-for="item in city"
               :value="item"

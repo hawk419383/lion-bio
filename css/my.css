@@ -20,7 +20,7 @@
 
 
 #local{
-  height: 300px;
+  
   padding-top: 2rem;
   
 }
@@ -55,7 +55,7 @@ img {
 #footer {
   
   background-color: #e0e0e0;
-
+  margin-top: 1rem;
   width: 100%;
   padding: 1rem;
   
@@ -67,7 +67,7 @@ img {
   font-size: 1rem;
 }
 .nav-item{
-  padding: 0 1.5rem;
+ padding: 0 1rem;
 }
 #navbarSupportedContent a:active {
   background-color: #a0a0a0;
@@ -75,14 +75,28 @@ img {
 }
 #navbarSupportedContent li{
 
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   box-sizing: border-box;
+  position: relative;
 }
 #navbarSupportedContent li:hover{
-  border-bottom: #cdebb4 2px solid;
+  border-style:outset;
   
+ 
 }
-
+#navbarSupportedContent li:hover::before
+{
+  
+  content:"";
+  width: 100%;
+  padding: 1.5px 0;
+  background-color: #d3eea8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: .5s;
+}
 
 #libon {
   color: #062722;
@@ -174,15 +188,13 @@ height: 2rem;
   
  
 }
-#storeloca{
-  padding: 1rem;
-  
-  
-}
+
  #storebox {
   padding: 1rem;
   background-color: #fff;
-  border: #cdebb4 2px;
+  border: #cdebb4 2px solid;
+  border-radius: 1rem;
+  margin: .5rem;
   
 }
 #product-button{
@@ -241,6 +253,8 @@ div img{
   background-color: #fff;
   border-radius: 5%;
   padding: 1rem  1.5rem;
+  border: #cdebb4 2px solid;
+  display: none;
 }
 #founder-info{
   position: relative;
@@ -262,6 +276,7 @@ div img{
   }
   #container{
     min-height: calc(100vh - 70px);
+    
     font-family: 'Noto Sans TC',sans-serif;
   }
   #imgbox{
