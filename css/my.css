@@ -239,7 +239,9 @@ div img{
   height: 100%;
   object-fit:cover;
 }
-
+p ,li{
+  font-size: 1.2rem;
+}
 
 
 #logo{
@@ -259,6 +261,7 @@ div img{
 #founder-info{
   position: relative;
   background-color:#D0F7AB;
+  padding: 1rem;
 }
 #story div #founder{
   background-color: #D0F7AB;
@@ -271,9 +274,7 @@ div img{
 
   }
   
-  #brand-info{
-    background-color: rgba(114, 230, 94, 0.5);
-  }
+ 
   #container{
     min-height: calc(100vh - 70px);
     
