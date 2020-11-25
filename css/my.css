@@ -111,6 +111,8 @@ img {
 #pup{
   background-color: white;
   padding-top: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #cdebb4;
 }
 
 #downselect{
@@ -198,6 +200,7 @@ height: 2rem;
   
 }
 #product-button{
+  margin-top: 1rem;
   background:    #D0F7AB;
 border-radius: 16px;
 padding:       20px 30px;
@@ -254,14 +257,18 @@ p ,li{
   
   background-color: #fff;
   border-radius: 5%;
-  padding: 1rem  1.5rem;
+  padding: .5rem  ;
   border: #cdebb4 2px solid;
-  display: none;
+ 
+  
 }
 #founder-info{
   position: relative;
   background-color:#D0F7AB;
   padding: 1rem;
+}
+#brand-info{
+  background-color: rgba(136, 133, 133, 0.1);
 }
 #story div #founder{
   background-color: #D0F7AB;
@@ -284,6 +291,7 @@ p ,li{
     width:100%;  
     height:0;  
     padding-bottom: 100%;  
+    
     position: relative;
 
   }
@@ -298,7 +306,7 @@ p ,li{
     left: 0;  
     right: 0;  
     margin: auto;
-    
+    border-radius: 1rem;
   }
   @media screen and (min-width: 768px){
 

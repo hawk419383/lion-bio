@@ -223,7 +223,7 @@
 
 
 
-        <div class=" col-12 d-flex mx-auto flex-wrap">
+        <!-- <div class=" col-12 d-flex mx-auto flex-wrap">
           <div
             v-for="item in product"
             class="col-12 col-md-4 "
@@ -243,33 +243,60 @@
 
           </div>
 
-        </div>
+        </div> -->
         <div class="col-12 mx-auto d-flex  flex-wrap p-2">
 
-          <div class="col-4 col-md-4  ">
+          <div class="col-12 col-md-4    ">
             <div
-              type="button"
-              id="product-button"
-              class="col-12 "
-              @click="selectproduct('ointment')"
-            >舒涼膏</div>
+              id="product-card"
+              class="col-11"
+            >
+              <div id="imgbox">
+                <img src="/img/ointment.jpg">
+              </div>
+              <div
+                type="button"
+                id="product-button"
+                class="col-12 "
+                @click="selectproduct('ointment')"
+              >舒涼膏</div>
+            </div>
+
           </div>
 
-          <div class="col-4 col-md-4 ">
+          <div class="col-12 col-md-4   ">
             <div
-              type="button"
-              id="product-button"
-              class="col-12 "
-              @click="selectproduct('cream')"
-            >舒緩護膚霜</div>
+              id="product-card"
+              class="col-11"
+            >
+              <div id="imgbox">
+                <img src="/img/LeDermaCream_Box&Cream_Reflection.png">
+              </div>
+              <div
+                type="button"
+                id="product-button"
+                class="col-12 "
+                @click="selectproduct('cream')"
+              >舒緩護膚霜</div>
+            </div>
+
           </div>
-          <div class="col-4  col-md-4 ">
+          <div class="col-12  col-md-4   ">
             <div
-              type="button"
-              id="product-button"
-              class="col-12 "
-              @click="selectproduct('high')"
-            >異膚高效舒緩乳</div>
+              id="product-card"
+              class="col-11"
+            >
+              <div id="imgbox">
+                <img src="/img/high-efficiency-AD-soonthing-moisturizer2.jpg">
+              </div>
+              <div
+                type="button"
+                id="product-button"
+                class="col-12 "
+                @click="selectproduct('high')"
+              >異膚高效舒緩乳</div>
+            </div>
+
           </div>
         </div>
       </div>
