@@ -135,7 +135,7 @@ height: 2rem;
 	margin: 0 auto;
 	overflow: hidden; 
 	position: absolute;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(233, 227, 227, 0.4);
   bottom: 0;
   
 }
@@ -149,7 +149,7 @@ height: 2rem;
 .marqee h3 a{
   white-space: nowrap;
   margin-right: 2em;
-  color: #ffffff;
+  color: #313131;
   text-decoration: none;
   
 }
