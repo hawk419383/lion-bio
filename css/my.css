@@ -334,3 +334,6 @@ p ,li{
     
     color: rgb(255, 255, 255);
   }
+  #ch:hover:first-child{display: none;
+
+  }
