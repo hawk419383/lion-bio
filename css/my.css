@@ -314,3 +314,23 @@ p ,li{
       display: none;
     }
   }
+  #buy{
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: 2px;
+    font-size: 1.5rem;
+    background-color: #cdebb4;
+    text-align: center;
+    color: #000;
+  }
+  #buy:hover{
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: 2px;
+    font-size: 1.5rem;
+    background-color: #093315;
+    
+    color: rgb(255, 255, 255);
+  }

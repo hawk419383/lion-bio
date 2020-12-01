@@ -561,11 +561,594 @@
             }, {
                 city: '新北市',
                 store: [{
-                    StoreName: "大亞五金百貨商場",
-                    Addres: "247 新北市蘆洲區復興路111號",
-
-                    phone: "02 2283 9665"
-                }]
+                        StoreName: "吉康健保藥局 ",
+                        Addres: " 新北市三重區三民街279號1樓",
+                        phone: " 02-89810122"
+                    },
+                    {
+                        StoreName: "美滿藥局 ",
+                        Addres: " 新北市三重區中華路16號",
+                        phone: " 02-89824272"
+                    },
+                    {
+                        StoreName: "恆源藥局 ",
+                        Addres: " 新北市三重區仁興街28巷41號1樓",
+                        phone: " 02-29765002"
+                    },
+                    {
+                        StoreName: "小林健保藥局 ",
+                        Addres: " 新北市三重區文化北路61-1號",
+                        phone: " 02-29763895"
+                    },
+                    {
+                        StoreName: "建宏藥局 ",
+                        Addres: " 新北市三重區名源街16號",
+                        phone: " 02-29714533"
+                    },
+                    {
+                        StoreName: "七美大藥局 ",
+                        Addres: " 新北市三重區成功路73巷35號",
+                        phone: " 02-29770767"
+                    },
+                    {
+                        StoreName: "上益藥局 ",
+                        Addres: " 新北市三重區忠孝路二段136號",
+                        phone: " 02-29879460"
+                    },
+                    {
+                        StoreName: "福榮藥局   ",
+                        Addres: " 新北市三重區長安街108號",
+                        phone: " 02-29731272"
+                    },
+                    {
+                        StoreName: "鴻泰健保藥局 ",
+                        Addres: " 新北市三重區重新路一段95號",
+                        phone: " 02-29769055"
+                    },
+                    {
+                        StoreName: "甜心健康生活藥局 ",
+                        Addres: " 新北市三重區集美街45號",
+                        phone: " 02-29762223"
+                    },
+                    {
+                        StoreName: "萊康藥局 - 溪尾店",
+                        Addres: " 新北市三重區溪尾街176號",
+                        phone: " 02-82871076"
+                    },
+                    {
+                        StoreName: "安星藥局 ",
+                        Addres: " 新北市三重區溪尾街239號",
+                        phone: " 02-29818255"
+                    },
+                    {
+                        StoreName: "龍門藥局   ",
+                        Addres: " 新北市三重區龍門路189號",
+                        phone: " 02-29756141"
+                    },
+                    {
+                        StoreName: "心中外藥局",
+                        Addres: " 新北市土城區中央路二段157號",
+                        phone: " 02-22603023"
+                    },
+                    {
+                        StoreName: "貓頭鷹藥妝藥局",
+                        Addres: " 新北市土城區中央路三段88號",
+                        phone: " 02-22695959"
+                    },
+                    {
+                        StoreName: "皇安藥局-土城店久安藥局",
+                        Addres: " 新北市土城區廣明街70號",
+                        phone: " 02-89671097"
+                    },
+                    {
+                        StoreName: "以法蓮藥局",
+                        Addres: " 新北市中和區中興街154號",
+                        phone: " 02-22438983"
+                    },
+                    {
+                        StoreName: "群芳藥局 ",
+                        Addres: " 新北市中和區中興街73號",
+                        phone: " 02-22433729"
+                    },
+                    {
+                        StoreName: "旭豐藥局 ",
+                        Addres: " 新北市中和區民享街41號",
+                        phone: " 02-2221 5393"
+                    },
+                    {
+                        StoreName: "安麒生活藥局",
+                        Addres: " 新北市中和區南華路15號",
+                        phone: " 02-22445130"
+                    },
+                    {
+                        StoreName: "九崧藥局 ",
+                        Addres: " 新北市中和區南華路20號1樓",
+                        phone: "  02-22451379"
+                    },
+                    {
+                        StoreName: "皇安藥局-中和二店朝安藥局",
+                        Addres: " 新北市中和區復興路262號",
+                        phone: " 02-31511269"
+                    },
+                    {
+                        StoreName: "萊恩藥局 ",
+                        Addres: " 新北市中和區景安路209號1樓",
+                        phone: " 02-29468395"
+                    },
+                    {
+                        StoreName: "皇安藥局-中和店景安藥局",
+                        Addres: " 新北市中和區景德街141號",
+                        phone: " 02-86688215"
+                    },
+                    {
+                        StoreName: "明慧藥師藥局  ",
+                        Addres: " 新北市永和區仁愛路295號1樓",
+                        phone: " 02-29297118"
+                    },
+                    {
+                        StoreName: "中碩藥局 ",
+                        Addres: " 新北市永和區永貞路337號",
+                        phone: " 02-29297280"
+                    },
+                    {
+                        StoreName: "皇安藥局-永和店安安藥局",
+                        Addres: " 新北市永和區竹林路203號",
+                        phone: " 02-89263651"
+                    },
+                    {
+                        StoreName: "柏愛藥局 ",
+                        Addres: " 新北市永和區竹林路57號",
+                        phone: " 02-89285609"
+                    },
+                    {
+                        StoreName: "緣來藥師藥局 ",
+                        Addres: " 新北市永和區福和路252號1樓 ",
+                        phone: " 02-29211798"
+                    },
+                    {
+                        StoreName: "汐止中西大藥局 ",
+                        Addres: " 新北市汐止區中正路4號",
+                        phone: " 02-26411746"
+                    },
+                    {
+                        StoreName: "滿益藥局 ",
+                        Addres: " 新北市汐止區仁愛路130號",
+                        phone: " 02-8642-1562"
+                    },
+                    {
+                        StoreName: "杏恩健保藥局 ",
+                        Addres: " 新北市汐止區仁愛路189號",
+                        phone: " 02-26435728"
+                    },
+                    {
+                        StoreName: "安泰藥局 ",
+                        Addres: " 新北市汐止區連興街114號",
+                        phone: " 02-26488486"
+                    },
+                    {
+                        StoreName: "春德堂藥局 ",
+                        Addres: " 新北市汐止區新台五路一段220號",
+                        phone: " 02-26422048"
+                    },
+                    {
+                        StoreName: "新進發大藥局 ",
+                        Addres: " 新北市板橋區大同街24號1樓",
+                        phone: " 02-22593926"
+                    },
+                    {
+                        StoreName: "皇安藥局-板橋總店",
+                        Addres: " 新北市板橋區中山路二段241號",
+                        phone: " 02-29524089"
+                    },
+                    {
+                        StoreName: "宏光藥局 ",
+                        Addres: " 新北市板橋區松柏街31號 ",
+                        phone: " 02-22513683"
+                    },
+                    {
+                        StoreName: "軒源藥局 ",
+                        Addres: " 新北市板橋區信義路169號1樓 ",
+                        phone: " 02-29583995"
+                    },
+                    {
+                        StoreName: "皇安藥局-板橋二店福安藥局",
+                        Addres: " 新北市板橋區國泰街76巷24、26號",
+                        phone: " 02-29540875"
+                    },
+                    {
+                        StoreName: "廣明藥師藥局 ",
+                        Addres: " 新北市板橋區莒光路93號",
+                        phone: " 02-22536325"
+                    },
+                    {
+                        StoreName: "一家好藥局 ",
+                        Addres: " 新北市林口區中山路500號",
+                        phone: " 02-26028270"
+                    },
+                    {
+                        StoreName: "家欣藥師藥局 ",
+                        Addres: " 新北市林口區文化二路一段567號",
+                        phone: " 02-26025368"
+                    },
+                    {
+                        StoreName: "泰臨中西藥局 ",
+                        Addres: " 新北市林口區忠孝一路5號",
+                        phone: " 02-26087538"
+                    },
+                    {
+                        StoreName: "佳藥長照藥局 ",
+                        Addres: " 新北市淡水區學府路75號",
+                        phone: " 02-26211321"
+                    },
+                    {
+                        StoreName: "合康大藥局 ",
+                        Addres: " 新北市新店區中正路263-2號",
+                        phone: " 02-29109888"
+                    },
+                    {
+                        StoreName: "再生藥局 ",
+                        Addres: " 新北市新店區北新路3段65巷9號",
+                        phone: " 02-29113781"
+                    },
+                    {
+                        StoreName: "微笑生活藥局 ",
+                        Addres: " 新北市新店區建國路85號",
+                        phone: " 02-89113397"
+                    },
+                    {
+                        StoreName: "天康連鎖生活館 ",
+                        Addres: " 新北市新莊區中正路347巷34號",
+                        phone: " 02-22013625"
+                    },
+                    {
+                        StoreName: "大仁藥局 ",
+                        Addres: " 新北市新莊區公園一路32號",
+                        phone: " 02-22776023"
+                    },
+                    {
+                        StoreName: "家嘉藥局 ",
+                        Addres: " 新北市新莊區自立街103號",
+                        phone: " 02-89926488"
+                    },
+                    {
+                        StoreName: "宏福藥局 ",
+                        Addres: " 新北市新莊區自信街55號",
+                        phone: " 02-29985225"
+                    },
+                    {
+                        StoreName: "永明藥局 ",
+                        Addres: " 新北市新莊區幸福路598號1樓",
+                        phone: " 02-89920019"
+                    },
+                    {
+                        StoreName: "杏佳藥局 ",
+                        Addres: " 新北市新莊區建安街127號",
+                        phone: " 02-22037077"
+                    },
+                    {
+                        StoreName: "力源藥局 ",
+                        Addres: " 新北市新莊區復興路二段133號1樓 ",
+                        phone: " 02-89929919"
+                    },
+                    {
+                        StoreName: "再豐藥局 ",
+                        Addres: " 新北市新莊區新泰路150巷13號",
+                        phone: " 02-29936092"
+                    },
+                    {
+                        StoreName: "萊康藥局  - 中正店",
+                        Addres: " 新北市蘆洲區中正路126號",
+                        phone: " 02-82867383"
+                    },
+                    {
+                        StoreName: "萊康藥局 - 中華店",
+                        Addres: " 新北市蘆洲區中華街45-1號",
+                        phone: " 02-28486787"
+                    },
+                    {
+                        StoreName: "上群藥局",
+                        Addres: " 新北市蘆洲區民族路287號",
+                        phone: " 02-22898275 "
+                    },
+                    {
+                        StoreName: "上群藥局",
+                        Addres: " 新北市蘆洲區民族路287號",
+                        phone: " 02-22898275"
+                    },
+                    {
+                        StoreName: "欣泰健保藥局",
+                        Addres: " 新北市蘆洲區民族路407號",
+                        phone: " 02-22810177"
+                    },
+                    {
+                        StoreName: "欣泰健保藥局",
+                        Addres: " 新北市蘆洲區民族路407號",
+                        phone: " 02-22810177 "
+                    },
+                    {
+                        StoreName: "德芳示範藥局",
+                        Addres: " 新北市蘆洲區光華路49號",
+                        phone: " 02-22829710"
+                    },
+                    {
+                        StoreName: "福您安藥局",
+                        Addres: " 新北市蘆洲區長安街246巷6號",
+                        phone: " 02-82858322"
+                    },
+                    {
+                        StoreName: "陳大藥局 ",
+                        Addres: " 新北市蘆洲區長安街95號",
+                        phone: " 02-22836224"
+                    },
+                    {
+                        StoreName: "達特藥局",
+                        Addres: " 新北市蘆洲區復興路62號",
+                        phone: " 02-82825004 "
+                    },
+                    {
+                        StoreName: "康泉藥師藥局 ",
+                        Addres: " 新北市蘆洲區集賢路224巷2號1樓",
+                        phone: " 02-28476990"
+                    }
+                ]
+            }, {
+                city: '桃園',
+                store: [{
+                        StoreName: "承融藥局 ",
+                        Addres: "桃園市龍潭區中興路282號",
+                        phone: "03-4095543"
+                    },
+                    {
+                        StoreName: "弘安藥局  ",
+                        Addres: "桃園市楊梅區新農街15號",
+                        phone: "03-4782115"
+                    },
+                    {
+                        StoreName: "弘安育藥局 ",
+                        Addres: "桃園市龍潭區北龍路一四四號",
+                        phone: "03-4808824"
+                    },
+                    {
+                        StoreName: "維益特藥局 ",
+                        Addres: "桃園市八德區和平路190號",
+                        phone: "03-3677885"
+                    },
+                    {
+                        StoreName: "中美健保特約藥局 ",
+                        Addres: "桃園市楊梅區埔心里中興路77號",
+                        phone: "03-4822483"
+                    },
+                    {
+                        StoreName: "達安藥師藥局  ",
+                        Addres: "桃園市大有路646號",
+                        phone: "03-3583582"
+                    },
+                    {
+                        StoreName: "美康健保藥局 ",
+                        Addres: "桃園市桃園區中山東路82號",
+                        phone: "03-3394007"
+                    },
+                    {
+                        StoreName: "和信藥局  ",
+                        Addres: "桃園市龜山區南祥路58號1樓",
+                        phone: "03-2124028"
+                    },
+                    {
+                        StoreName: "康熙藥局 ",
+                        Addres: "桃園市龍潭區中正路128號",
+                        phone: "03-4801508"
+                    },
+                    {
+                        StoreName: "合康美藥局 ",
+                        Addres: "桃園市楊梅區中山北路二段79號",
+                        phone: "03-4812598"
+                    },
+                    {
+                        StoreName: "大興藥師藥局 ",
+                        Addres: "桃園市桃園區大德一街96號",
+                        phone: "03-3266868"
+                    },
+                    {
+                        StoreName: "民富大藥局 ",
+                        Addres: "桃園市桃園區大有路488號一樓",
+                        phone: "03-3469976"
+                    },
+                    {
+                        StoreName: "龍泰藥局   ",
+                        Addres: "桃園市楊梅區民族路五段147巷2號",
+                        phone: "03-4901525"
+                    },
+                    {
+                        StoreName: "晴一藥局  ",
+                        Addres: "桃園市中壢區民族路五段258號",
+                        phone: "03-4909427"
+                    },
+                    {
+                        StoreName: "星康生活藥局  ",
+                        Addres: "桃園市中壢區中美路二段94號",
+                        phone: "03-4252869"
+                    },
+                    {
+                        StoreName: "悅發藥局  ",
+                        Addres: "桃園市龍潭區龍元路86號",
+                        phone: "03-4794438"
+                    },
+                    {
+                        StoreName: "大榮藥妝  ",
+                        Addres: "桃園市龍潭區凌雲里中豐路上林段2號",
+                        phone: "03-4797795"
+                    },
+                    {
+                        StoreName: "上禾藥師藥局  ",
+                        Addres: "桃園市中壢區新生路215號",
+                        phone: "03-4269277"
+                    },
+                    {
+                        StoreName: "千葉大藥局  ",
+                        Addres: "桃園市中壢區新生路307號",
+                        phone: "03-4251886"
+                    },
+                    {
+                        StoreName: "大立健保藥局 ",
+                        Addres: "桃園市龍潭區民族路 192號1樓",
+                        phone: "03-4093487"
+                    },
+                    {
+                        StoreName: "閤家康聯合藥局 ",
+                        Addres: "桃園市平鎮區中豐路山頂段256號",
+                        phone: "03-4194550"
+                    },
+                    {
+                        StoreName: "懷仁藥師健保藥局  ",
+                        Addres: "桃園市中壢區中北路93號1樓",
+                        phone: "03-4378466"
+                    },
+                    {
+                        StoreName: "祥合藥局 ",
+                        Addres: "桃園市中壢區中北路二段431號",
+                        phone: "03-2841880"
+                    },
+                    {
+                        StoreName: "左外野藥局 ",
+                        Addres: "桃園市龜山區文光街6號1樓",
+                        phone: "03-3271503"
+                    },
+                    {
+                        StoreName: "南崁宜安藥師藥局 ",
+                        Addres: "桃園市蘆竹區南崁路248號",
+                        phone: "03-3220686"
+                    },
+                    {
+                        StoreName: "安利藥局",
+                        Addres: "桃園市中壢區龍東路504號",
+                        phone: "03-4562824"
+                    },
+                    {
+                        StoreName: "吉康生活藥局",
+                        Addres: "桃園市八德區義勇街120號",
+                        phone: "03-3768577"
+                    },
+                    {
+                        StoreName: "101藥師聯合藥局 ",
+                        Addres: "桃園市龍潭區中正路44號",
+                        phone: "03-4708593"
+                    },
+                    {
+                        StoreName: "瑞瑄藥局",
+                        Addres: "桃園市平鎮區中豐路南勢二段162號",
+                        phone: "03-4396205"
+                    },
+                    {
+                        StoreName: "華生藥師藥局",
+                        Addres: "桃園市楊梅區埔心里中興路89號",
+                        phone: "03-4821839"
+                    },
+                    {
+                        StoreName: "新象聯合藥局",
+                        Addres: "桃園市中壢區元化路62號",
+                        phone: "03-4277585"
+                    },
+                    {
+                        StoreName: "新賀生大藥局",
+                        Addres: "桃園市中壢區中山東路3段260號",
+                        phone: "03-4163900"
+                    },
+                    {
+                        StoreName: "奕成大藥局 ",
+                        Addres: "桃園市八德區興豐路673號1樓",
+                        phone: "03-3732113"
+                    },
+                    {
+                        StoreName: "百年聯和藥局",
+                        Addres: "桃園市龍潭區中豐路300號",
+                        phone: "03-4895268"
+                    },
+                    {
+                        StoreName: "欣康藥局",
+                        Addres: "桃園市大溪區員林路2段390－6號",
+                        phone: "03-3076310"
+                    },
+                    {
+                        StoreName: "鴻安中西藥局",
+                        Addres: "桃園市中壢區新中北路二段191號1F",
+                        phone: "03-452-0615"
+                    },
+                    {
+                        StoreName: "永崴大藥局",
+                        Addres: "桃園市中壢區莊敬路783號",
+                        phone: "03-4513537"
+                    },
+                    {
+                        StoreName: "新寶樹藥局",
+                        Addres: "桃園市八德區介壽路一段974號",
+                        phone: "03-3770000"
+                    },
+                    {
+                        StoreName: "博爾康生活藥局",
+                        Addres: "桃園市龜山區大同路250號1樓",
+                        phone: "03-3506588"
+                    },
+                    {
+                        StoreName: "美佑康活力藥局",
+                        Addres: "桃園市中壢區五福里中正路627號",
+                        phone: "03-2810018"
+                    },
+                    {
+                        StoreName: "壽德藥師藥局",
+                        Addres: "桃園市八德區桃德路84號",
+                        phone: "03-3666350"
+                    },
+                    {
+                        StoreName: "思琁藥師藥局",
+                        Addres: "桃園市中壢區中北路二段430號",
+                        phone: "03-4162189 "
+                    },
+                    {
+                        StoreName: "新華興健保藥局",
+                        Addres: "桃園市桃園區中山東路10號",
+                        phone: "03-3335977"
+                    },
+                    {
+                        StoreName: "樂謙藥師藥局",
+                        Addres: "桃園市中壢區龍東路134號",
+                        phone: "03-4662775"
+                    },
+                    {
+                        StoreName: "景賀藥局",
+                        Addres: "桃園市平鎮區金陵路三段66-6號",
+                        phone: "03-4570991"
+                    },
+                    {
+                        StoreName: "康橋藥局",
+                        Addres: "桃園市桃園區國際路一段1029號",
+                        phone: "03-2173588"
+                    },
+                    {
+                        StoreName: "莘莘藥局",
+                        Addres: "桃園市莊敬路一段368號",
+                        phone: "03-3170681-10"
+                    },
+                    {
+                        StoreName: "聖昌藥師藥局",
+                        Addres: "桃園市中正路1238號 ",
+                        phone: "03-3266654"
+                    },
+                    {
+                        StoreName: "華康中西藥局",
+                        Addres: "桃園市桃園區中埔六街3號",
+                        phone: "03-3166920"
+                    },
+                    {
+                        StoreName: "迦南藥局",
+                        Addres: "桃園市桃園區國聖一街61號1樓之1",
+                        phone: "03-360-9938"
+                    },
+                    {
+                        StoreName: "薰衣草藥局 ",
+                        Addres: "桃園市中壢區新生路335號",
+                        phone: "03-4253330"
+                    }
+                ]
             },
             {
                 city: '宜蘭縣',
@@ -614,6 +1197,48 @@
                 Addres: "350 苗栗縣竹南鎮和興路345號",
 
                 phone: "02 2283 9665"
+            }]
+        }],
+
+
+    };
+    var ointment = {
+        "北部": [{
+                city: '台北市',
+                store: [{
+
+                    },
+
+                ]
+
+            }, {
+                city: '新北市',
+                store: [{
+
+                }]
+            },
+            {
+                city: '宜蘭縣',
+                store: [{
+
+                }]
+            }, {
+                city: '新竹市',
+                store: [{
+                    StoreName: "Dr Li 手機醫生-明果通訊",
+                    Addres: "新竹市水田街169號",
+                    map: "https://g.page/Doctorli?share",
+                    phone: "03-5350577"
+                }]
+            }
+        ],
+
+
+
+        "中部": [{
+            city: '苗栗',
+            store: [{
+
             }]
         }],
 
@@ -677,10 +1302,10 @@
             selectproduct: function (x) {
                 this.selected_item.store = '';
                 this.selected = '';
-                if (x == 'ointment' || x == 'cream') {
+                if (x == 'ointment') {
                     this.selected_item = '';
                     data_group = '';
-                    data_group = store_cream;
+                    data_group = ointment;
                     this.aera = Object.keys(data_group)
                     console.log(`${this.aera}`);
 
@@ -688,6 +1313,14 @@
                     this.selected = '';
                     data_group = '';
                     data_group = store_high;
+                    this.aera = Object.keys(data_group);
+                    console.log(`${this.aera}`);
+
+
+                } else if (x == 'cream') {
+                    this.selected = '';
+                    data_group = '';
+                    data_group = store_cream;
                     this.aera = Object.keys(data_group);
                     console.log(`${this.aera}`);
 
