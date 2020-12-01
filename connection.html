@@ -255,8 +255,9 @@
                 class="col-12 col-lg-8 mx-auto"
                 id="info-card"
             >
-                <div class="col-8  p-2">
-                    <div class="form-group">
+                <div class="col-11 d-flex mx-auto p-2">
+
+                    <div class=" col-8 ">
                         <label
                             for="name"
                             class="p-2"
@@ -281,8 +282,8 @@
                             id="emailHelp"
                             class="form-text text-muted"
                         ></small>
-                    </div>
-                    <div class="form-group">
+
+
                         <label
                             for="tel"
                             class="p-2"
@@ -294,29 +295,31 @@
                             aria-describedby="emailHelp"
                         >
 
+
+                        <label
+                            for="body"
+                            class="p-2"
+                        >您想說什麼?:</label>
+                        <textarea
+                            class="form-control"
+                            id="body"
+                            rows="3"
+                        ></textarea>
+
+                        <button
+                            type="button"
+                            class="btn "
+                            id="submit"
+                            onclick="send()"
+                        >送出</button>
                     </div>
-                    <label
-                        for="body"
-                        class="p-2"
-                    >您想說什麼?:</label>
-                    <textarea
-                        class="form-control"
-                        id="body"
-                        rows="3"
-                    ></textarea>
-                    <button
-                        type="button"
-                        class="btn "
-                        id="submit"
-                        onclick="send()"
-                    >送出</button>
+                    <div class="col-4 p-2">如有任何產品使用或相關問題，歡迎您在此填上聯絡資訊與問題，送出後我們會儘速與您聯繫!</div>
                 </div>
 
 
 
-
-
             </div>
+
 
         </div>
 
