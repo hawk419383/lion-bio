@@ -83,6 +83,7 @@
             <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
           </li>-->
                 <li class="nav-item active">
+
                     <a
                         class="nav-link mx-auto font-weight-bold"
                         href="index.html"
@@ -138,9 +139,30 @@
                 </li>
                 <li class="nav-item">
                     <a
-                        class="nav-link mx-auto font-weight-bold"
-                        href="/brand_story.html"
-                    >品牌故事</a>
+                        class="nav-link dropdown-toggle mx-auto font-weight-bold"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        品牌故事
+                    </a>
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="/brand_story.html"
+                        >品牌故事</a>
+                        <a
+                            class="dropdown-item"
+                            href="/media.html"
+                        >媒體專訪</a>
+
+                    </div>
                 </li>
 
 
@@ -212,7 +234,8 @@
                     class="col-12"
                     id="icon"
                 ><i class="fas fa-envelope "></i>
-                    liwinbio@gmail.com
+                    liwinbio@liwinbio.com
+
                 </div>
                 <div
                     class="col-12"
@@ -376,7 +399,7 @@
             var tel = document.getElementById('tel').value;
             Email.send({
                 SecureToken: "419242e1-c142-4ebd-9027-540aa600bc7c",
-                To: 'lederma.01@gmail.com',
+                To: 'liwinbio@liwinbio.com',
                 From: " hawk419383@gmail.com",
                 Subject: "有人聯絡我們",
                 Body: `${name}先生/小姐,聯絡信箱:${mail},連絡電話:${tel}
