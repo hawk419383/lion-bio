@@ -69,6 +69,7 @@
                 store: [{
                     StoreName: "中碩藥局",
                     phone: "02-29297280",
+                    map: "https://goo.gl/maps/hb85yLTPmuTye3K89",
                     Addres: "新北市永和區永貞路337號"
                 }]
             }, {
@@ -76,16 +77,19 @@
                 store: [{
                         StoreName: "思琁藥師藥局",
                         phone: "03-416-2189",
+                        map: "https://goo.gl/maps/anYQoipdyNxm6bJS7",
                         Addres: "桃園市中壢區中北路二段430號"
                     },
                     {
                         StoreName: "承融藥局",
                         phone: "03-4095543",
+                        map: "https://goo.gl/maps/7aJhCbcRrzfgf8b98",
                         Addres: "桃園市龍潭區中興路282號"
                     },
                     {
                         StoreName: "維益特藥局",
                         phone: "03-3677885",
+                        map: "https://goo.gl/maps/RXTDYcJuF28exkwo9",
                         Addres: "桃園市八德區和平路190號"
                     }
                 ]
@@ -94,26 +98,31 @@
                 store: [{
                         StoreName: "得安專業藥師藥局",
                         phone: "03-5283038",
+                        map: "https://goo.gl/maps/JoG73xNkWdvTmX769",
                         Addres: "新竹市東區中華路二段652號"
                     },
                     {
                         StoreName: "禾心藥局",
                         phone: "03-5332403",
+                        map: "https://goo.gl/maps/FeF7Gnz9QzpwuiPx7",
                         Addres: "新竹市東區民生路231號1樓"
                     },
                     {
                         StoreName: "幼能健保藥局",
                         phone: "03-5339750",
+                        map: "https://goo.gl/maps/7guH7UKAXHDHoVad7",
                         Addres: "新竹市竹光路108號"
                     },
                     {
                         StoreName: "新康藥局",
                         phone: "03-5256938",
+                        map: "https://goo.gl/maps/pZwMHN8MpJ8vpGJK6",
                         Addres: "新竹市東區林森路188號"
                     },
                     {
                         StoreName: "吉康藥局",
                         phone: "03-5369916",
+                        map: "https://goo.gl/maps/6wPHh9k4XD4UXBXCA",
                         Addres: "新竹市東大路三段503號"
                     }
                 ]
@@ -138,6 +147,7 @@
                 store: [{
                     StoreName: "崧博藥師藥局",
                     phone: "0905-581913",
+                    map: "https://goo.gl/maps/NQ6dR8Ln3sgyD2L96",
                     Addres: "苗栗縣竹南鎮龍山路三段37號"
                 }]
             },
@@ -147,31 +157,37 @@
                 store: [{
                         StoreName: "增健美藥局",
                         phone: "04-27056068",
+                        map: "https://goo.gl/maps/jNnRN4XN62hoBkgY6",
                         Addres: "台中市西屯區河南路2段359號1樓"
                     },
                     {
                         StoreName: "熊健康藥局",
                         phone: "04-23163505",
+                        map: "https://goo.gl/maps/2T9NHdS3n38W6eHx9",
                         Addres: "台中市西屯區太原路一段232號"
                     },
                     {
                         StoreName: "興明健保藥局",
                         phone: "04-23955521",
+                        map: "https://goo.gl/maps/eagv4ARg7Ti6VQ8T7",
                         Addres: "台中市太平區樹德路97-6號"
                     },
                     {
                         StoreName: "新元藥局",
                         phone: "04-23121383",
+                        map: "https://goo.gl/maps/TZCzUQ5DSsRG2RLr9",
                         Addres: "台中市西屯區文心路三段532號1樓"
                     },
                     {
                         StoreName: "仁暉健保藥局",
                         phone: "04-26365626",
+                        map: "https://goo.gl/maps/n6WN5kh9fYt2oSLW9",
                         Addres: "台中市沙鹿區向上路七段130號"
                     },
                     {
                         StoreName: "布拉格藥局",
                         phone: "04-22786580",
+                        map: "https://g.page/PraguePharmacy?share",
                         Addres: "台中市太平區東平路615號"
                     }
                 ]
@@ -184,7 +200,7 @@
             store: [{
                 StoreName: "必昇藥局",
                 Addres: "高雄市小港區漢民路322號",
-
+                map: "https://goo.gl/maps/3egFJNzSiVAvqzmx6",
                 phone: "07-8069103"
             }]
         }, {
@@ -192,7 +208,7 @@
             store: [{
                 StoreName: "一二藥局",
                 Addres: "屏東市廣東路1094號",
-
+                map: "https://goo.gl/maps/wLvuushgj7thVgwj8",
                 phone: "08-7324688"
             }]
         }],
@@ -201,43 +217,42 @@
     };
     var ointment = {
         "北部": [{
-                city: '台北市',
-                store: [{
+            //         city: '台北市',
+            //         store: [{
 
-                    },
+            //             },
 
-                ]
+            //         ]
 
-            }, {
-                city: '新北市',
-                store: [{
+            //     }, {
+            //         city: '新北市',
+            //         store: [{
 
-                }]
-            },
-            {
-                city: '宜蘭縣',
-                store: [{
+            //         }]
+            //     },
+            //     {
+            //         city: '宜蘭縣',
+            //         store: [{
 
-                }]
-            }, {
-                city: '新竹市',
-                store: [{
-                    StoreName: "Dr Li 手機醫生-明果通訊",
-                    Addres: "新竹市水田街169號",
-                    map: "https://g.page/Doctorli?share",
-                    phone: "03-5350577"
-                }]
-            }
-        ],
-
-
-
-        "中部": [{
-            city: '苗栗',
+            //         }]
+            //     }, {
+            city: '新竹市',
             store: [{
-
+                StoreName: "Dr Li 手機醫生-明果通訊",
+                Addres: "新竹市水田街169號",
+                map: "https://g.page/Doctorli?share",
+                phone: "03-5350577"
             }]
         }],
+
+
+
+        // "中部": [{
+        //     city: '苗栗',
+        //     store: [{
+
+        //     }]
+        // }],
 
 
     };

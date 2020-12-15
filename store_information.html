@@ -344,7 +344,10 @@
           <div id="storebox">
             <div>名稱:{{item.StoreName}}</div>
 
-            <div>地址: <a v-bind:href="item.map">{{item.Addres}}</a></div>
+            <div>地址: <a
+                v-bind:href="item.map"
+                target="_blank"
+              >{{item.Addres}}</a></div>
 
             <div>電話:{{item.phone}}</div>
 
