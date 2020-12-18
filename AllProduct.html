@@ -98,21 +98,41 @@
         >
             <ul class="navbar-nav mx-auto">
                 <!--          <li class="nav-item active">
-            <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
-          </li>-->
-                <li class="nav-item active">
+        <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+      </li>-->
+                <li class="nav-item ">
 
                     <a
                         class="nav-link mx-auto font-weight-bold"
                         href="index.html"
                     >最新消息</a>
                 </li>
-                <li class="nav-item active">
-
+                <li class="nav-item dropdown">
                     <a
-                        class="nav-link mx-auto font-weight-bold"
-                        href="/AllProduct.html"
-                    >產品介紹</a>
+                        class="nav-link dropdown-toggle mx-auto font-weight-bold"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        產品介紹
+                    </a>
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="/AllProduct.html"
+                        >產品介紹</a>
+                        <a
+                            class="dropdown-item"
+                            href="/Report.html"
+                        >產品檢驗</a>
+
+                    </div>
                 </li>
 
 
@@ -204,11 +224,11 @@
         <div class="col-12   ">
 
             <div
-                class=" col-12 d-flex"
+                class=" col-12 d-flex flex-wrap"
                 id="bg"
             >
                 <div
-                    class="col-4 "
+                    class="col-6 col-lg-4 "
                     id="product"
                     type="button"
                     data-toggle="modal"
@@ -218,7 +238,7 @@
                         alt=""
                     ></div>
                 <div
-                    class="col-4 "
+                    class="col-6 col-lg-4 "
                     id="product"
                     type="button"
                     data-toggle="modal"
@@ -229,13 +249,13 @@
                     ></div>
 
                 <div
-                    class="col-4 "
+                    class="col-6 col-lg-4"
                     id="product"
                     type="button"
                     data-toggle="modal"
                     data-target="#exampleModal3"
                 ><img
-                        src="/img/LeDermaCream_Box&Cream.png"
+                        src="/img/LeDermaCream_Box&Cream2.png"
                         alt=""
                     > </div>
             </div>
@@ -285,7 +305,7 @@
                             舒涼膏可緩和蚊蟲叮咬所造成的肌膚敏感不適(包括：泛紅及搔癢)，利用複方草本精華與涼感成分所製作，不含有類固醇、抗組織胺、局部麻醉劑等西藥成分，緩和蚊蟲叮咬後的諸多肌膚不適。</p>
                     </div>
                     <div class="col-12 p-2">
-                        <p align="center">價格:120</p>
+                        <p id="price">價格:120</p>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -341,7 +361,7 @@
                             源自草本精萃技術，輔以專利組合配方，再結合西方的皮膚科學，透過基礎實驗驗證功效，進而發展出系列草本精萃舒緩護膚品</p>
                     </div>
                     <div class="col-12 p-2">
-                        <p align="center">價格:1380</p>
+                        <p id="price">價格:1380</p>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -376,7 +396,7 @@
                     <h5
                         class=""
                         id="exampleModalLabel"
-                    >舒緩護膚霜</h5>
+                    ></h5>
                     <button
                         type="button"
                         class="close"
@@ -397,7 +417,7 @@
                             舒緩護膚霜是一種採用溫和草本複方的護膚保養品，不含類固醇、抗組織胺與局部麻醉劑等西藥成分，一瓶抵過瓶瓶罐罐，特別針對敏弱肌及皮膚乾癢之族群，緩和各種肌膚不適。</p>
                     </div>
                     <div class="col-12 p-2">
-                        <p align="center">價格:800</p>
+                        <p id="price">價格:800</p>
                     </div>
                 </div>
                 <div class="modal-footer">

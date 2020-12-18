@@ -11,6 +11,7 @@
 #product{
     position: relative;
    
+   
 }
 #product img{
     max-height: 100%;  
@@ -23,7 +24,28 @@
     left: 0;  
     right: 0;  
     margin: auto;
+    overflow: hidden;
+    transition: box-shadow 500ms;
+    z-index: 1;
 }
-#product img:hover{
+#product:hover{
+    opacity: .5 #747070;
+}
+#product:hover img{
+    -webkit-filter:drop-shadow(5px 5px 5px #333);
+}
+
    
+
+#price{
+    align-items: center;
+    background-color: #c3e9a9;
+    text-align: center;
+}
+#bar{
+    /* background-color: #c3e9a9; */
+}
+#border{
+    border: #747070 1px solid;
+    margin: 2rem;
 }

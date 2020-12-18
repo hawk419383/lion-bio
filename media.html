@@ -100,19 +100,39 @@
         <!--          <li class="nav-item active">
       <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
     </li>-->
-        <li class="nav-item active">
+        <li class="nav-item ">
 
           <a
             class="nav-link mx-auto font-weight-bold"
             href="index.html"
           >最新消息</a>
         </li>
-        <li class="nav-item active">
-
+        <li class="nav-item dropdown">
           <a
-            class="nav-link mx-auto font-weight-bold"
-            href="/AllProduct.html"
-          >產品介紹</a>
+            class="nav-link dropdown-toggle mx-auto font-weight-bold"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            產品介紹
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbarDropdown"
+          >
+            <a
+              class="dropdown-item"
+              href="/AllProduct.html"
+            >產品介紹</a>
+            <a
+              class="dropdown-item"
+              href="/Report.html"
+            >產品檢驗</a>
+
+          </div>
         </li>
 
 
@@ -197,18 +217,16 @@
 
   <div class="container p-3">
     <div class="row justify-content-center">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li
-            class="breadcrumb-item active"
-            aria-current="page"
-          >關於麗膚寶</li>
-          <li
-            class="breadcrumb-item active"
-            aria-current="page"
-          >媒體專訪</li>
-        </ol>
-      </nav>
+      <div class="col-10 mx-auto">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li
+              class="breadcrumb-item active mx-auto"
+              aria-current="page"
+            >媒體專訪</li>
+          </ol>
+        </nav>
+      </div>
     </div>
     <div class="col-12 mx-auto d-flex flex-wrap">
       <div
@@ -268,7 +286,7 @@
           ></iframe>
         </div>
       </div>
-      <d0iv
+      <div
         class="col-12 col-md-10 col-lg-6  mx-auto p-3 "
         id="v4"
       >
@@ -286,7 +304,7 @@
             allowfullscreen
           ></iframe>
         </div>
-      </d0iv>
+      </div>
     </div>
   </div>
 

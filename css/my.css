@@ -46,10 +46,12 @@ img {
 .breadcrumb {
   /*background-color: #FFF;*/
   background-image: url('../img/background_img.jpg');
+  
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
-  content: '>';
+.breadcrumb-item {
+  
+  
 }
 
 #footer {
@@ -135,7 +137,7 @@ height: 2rem;
 	margin: 0 auto;
 	overflow: hidden; 
 	position: absolute;
-  background-color: rgba(252, 240, 136, 0.4);
+  background-color: rgba(160, 248, 100, 0.4);
   bottom: 0;
   
 }
@@ -149,7 +151,7 @@ height: 2rem;
 .marqee h3 a{
   white-space: nowrap;
   margin-right: 2em;
-  color: #491c08;
+  color: #161210;
   text-decoration: none;
   
 }

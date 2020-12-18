@@ -22,6 +22,10 @@
         rel="stylesheet"
         href="css/my.css"
     >
+    <link
+        rel="stylesheet"
+        href="/css/paper.css"
+    >
     <title>麗膚寶 Le Derma</title>
 </head>
 
@@ -73,19 +77,39 @@
                 <!--          <li class="nav-item active">
         <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
       </li>-->
-                <li class="nav-item active">
+                <li class="nav-item ">
 
                     <a
                         class="nav-link mx-auto font-weight-bold"
                         href="index.html"
                     >最新消息</a>
                 </li>
-                <li class="nav-item active">
-
+                <li class="nav-item dropdown">
                     <a
-                        class="nav-link mx-auto font-weight-bold"
-                        href="/AllProduct.html"
-                    >產品介紹</a>
+                        class="nav-link dropdown-toggle mx-auto font-weight-bold"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        產品介紹
+                    </a>
+                    <div
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                    >
+                        <a
+                            class="dropdown-item"
+                            href="/AllProduct.html"
+                        >產品介紹</a>
+                        <a
+                            class="dropdown-item"
+                            href="/Report.html"
+                        >產品檢驗</a>
+
+                    </div>
                 </li>
 
 
@@ -167,7 +191,6 @@
         </div>
     </nav>
 
-
     <!-- <div class="container p-3">
         <div class="row justify-content-center">
             <nav aria-label="breadcrumb">
@@ -188,8 +211,21 @@
         class="row justify-content-center no-gutters"
         id="container"
     >
+        <div class="col-12 col-lg-8 p-3">
+            <div class="col-12 mx-auto">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li
+                            class="breadcrumb-item active mx-auto"
+                            aria-current="page"
+                        >公益活動</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
         <div class="col-12 col-md-6 p-2">
-            <div class="card">
+
+            <div class="card ">
                 <div class="card-body">
 
                     <Video
@@ -217,31 +253,72 @@
                     </article>
 
                 </div>
+                <div class="green col-11 mx-auto"></div>
+                <div class="d-flex flex-wrap">
+                    <div
+                        class="col-10 mx-auto"
+                        id="paper"
+                    ><img
+                            src="/img/Thank you4.jpg"
+                            alt=""
+                        ></div>
+                    <div
+                        class="col-6"
+                        id="paper"
+                    ><img
+                            src="/img/Thank you1.jpg"
+                            alt=""
+                        ></div>
+                    <div
+                        class="col-6"
+                        id="paper"
+                    ><img
+                            src="/img/Thank you2.jpg"
+                            alt=""
+                        ></div>
+                    <div
+                        class="col-6"
+                        id="paper"
+                    ><img
+                            src="/img/Thank you3.jpg"
+                            alt=""
+                        ></div>
+                    <div
+                        class="col-6"
+                        id="paper"
+                    ><img
+                            src="/img/Thank you5.jpg"
+                            alt=""
+                        ></div>
+
+                </div>
+
             </div>
+
+
         </div>
-    </div>
-    <footer
-        id="footer"
-        class="w-100 "
-    >
+        <footer
+            id="footer"
+            class="w-100 "
+        >
 
 
 
-        <h3
-            align="center"
-            valign="center"
-            id="libon"
-        >Le Derma麗膚寶,麗旺生技有限公司</h3>
-
-
-
+            <h3
+                align="center"
+                valign="center"
+                id="libon"
+            >Le Derma麗膚寶,麗旺生技有限公司</h3>
 
 
 
 
-    </footer>
 
-    <!--<div class="
+
+
+        </footer>
+
+        <!--<div class="
                         container-fluid
                         main-footer
                         text-center"
@@ -249,12 +326,12 @@
                         &copy; copyright by 麗旺生技股份有限公司
                 </div>-->
 
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-    </script>
+        <script type="text/javascript">
+        </script>
 
 </body>
 
