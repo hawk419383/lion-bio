@@ -27,6 +27,7 @@ body{
    width:100%;
    border-bottom: 1px #8d8c8c solid;
    /* border-top: 1px #adaaaa solid ; */
+   padding: 0;
    
  }
  #ans {

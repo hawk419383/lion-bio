@@ -16,26 +16,15 @@
   >
   <link
     rel="stylesheet"
+    href="/css/store.css"
+  >
+  <link
+    rel="stylesheet"
     href="css/my.css"
   >
   <title>麗膚寶 Le Derma</title>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <style type="text/css">
-    .map-container-5 {
-      overflow: hidden;
-      padding-bottom: 56.25%;
-      position: relative;
-      height: 0;
-    }
 
-    .map-container-5 iframe {
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-    }
-  </style>
 </head>
 
 <body>
@@ -205,8 +194,11 @@
     id="container"
     class="col-12 mx-auto p-2"
   >
-    <div class="container ">
-      <div class="col-10 mx-auto">
+    <div class="container d-flex flex-wrap ">
+      <div
+        class="col-10 mx-auto "
+        id="chose"
+      >
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li
@@ -269,7 +261,7 @@
               class="col-11"
             >
               <div id="imgbox">
-                <img src="/img/LeDermaCream_Box&Cream.png">
+                <img src="/img/LeDermaCream_Box&Cream2.png">
               </div>
               <div
                 type="button"
@@ -293,6 +285,8 @@
                 id="product-button"
                 class="col-12 "
                 @click="selectproduct('high')"
+                data-toggle="modal"
+                data-target="#exampleModal"
               >異膚高效舒緩乳</div>
             </div>
 
@@ -303,7 +297,7 @@
 
 
 
-      <div
+      <!-- <div
         class=" col-9  d-flex mx-auto flex-wrap"
         id="selecttable"
         v-if="show"
@@ -377,9 +371,125 @@
         </DIV>
 
 
+      </div> -->
+      <!-- modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog  modal-lg modal-dialog-centered"
+          role="document"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex flex-wrap">
+              <div
+                class=" col-10  d-flex mx-auto flex-wrap"
+                id="selecttable"
+                v-if="show"
+              >
+                <div class="col-12 col-lg-6 mx-auto ">
+
+                  <select
+                    v-model="selected"
+                    v-on:change="detailsChange"
+                    class="col-11 mx-auto"
+                    id="downselect"
+                  >
+                    <option
+                      value=""
+                      disabled
+                      selected
+                      hidden
+                    >請選擇地區</option>
+                    <option
+                      v-for="item in aera"
+                      :value="item"
+                    >{{item}}</option>
+                  </select>
+                </div>
+                <div class="col-12 col-lg-6  mx-auto ">
+
+                  <select
+                    v-model="selected_item"
+                    class="col-11 mx-auto"
+                    id="downselect"
+                  >
+                    <option
+                      value=""
+                      disabled
+                      selected
+                      hidden
+                    >請選擇縣市</option>
+                    <option
+                      v-for="item in city"
+                      :value="item"
+                    >{{item.city}}</option>
+                  </select>
+                </div>
+                <div
+                  class="col-12  mx-auto d-flex flex-wrap"
+                  id="local"
+                >
+
+                  <DIV
+                    v-for="item in selected_item.store"
+                    class=" col-12  "
+                    id="storeloca"
+                    v-if="show"
+                  >
+
+                    <div id="storebox">
+                      <div>名稱:{{item.StoreName}}</div>
+
+                      <div>地址: <a
+                          v-bind:href="item.map"
+                          target="_blank"
+                        >{{item.Addres}}</a></div>
+
+                      <div>電話:{{item.phone}}</div>
+
+                    </div>
+
+
+                  </DIV>
+
+
+                </div>
+
+
+              </div>
+              <div class="modal-footer col-12">
+
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >關閉</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- NO2 -->
+
       </div>
     </div>
-  </div>
 
 
 

@@ -91,6 +91,23 @@
                         phone: "03-3677885",
                         map: "https://goo.gl/maps/RXTDYcJuF28exkwo9",
                         Addres: "桃園市八德區和平路190號"
+                    }, {
+                        StoreName: "康橋藥局",
+                        phone: "03-2173588",
+                        Addres: "桃園市桃園區國際路一段1029號",
+                        map: "https://goo.gl/maps/bBfP9bUCz3takrdN7"
+                    },
+                    {
+                        StoreName: "華康中西藥局",
+                        phone: "03-3166920",
+                        Addres: "桃園市桃園區中埔六街3號",
+                        map: "https://goo.gl/maps/kE9dkXjsPg1kff7G7"
+                    },
+                    {
+                        StoreName: "薰衣草藥局",
+                        phone: "03-4253330",
+                        Addres: "桃園市中壢區新生路335號",
+                        map: "https://goo.gl/maps/J7bb1qaFzhNxaDQ76"
                     }
                 ]
             }, {
@@ -124,6 +141,16 @@
                         phone: "03-5369916",
                         map: "https://goo.gl/maps/6wPHh9k4XD4UXBXCA",
                         Addres: "新竹市東大路三段503號"
+                    }, {
+                        StoreName: "康田藥局",
+                        phone: "03-5638217",
+                        Addres: "新竹市東區金山街102號1樓",
+                        map: "https://goo.gl/maps/SeToiX8HqWvs5yBbA"
+                    }, {
+                        StoreName: "均祐健康藥局",
+                        phone: "03-5325369",
+                        Addres: "新竹市北區中正路389號",
+                        map: "https://goo.gl/maps/baf5cdQpQsPt6mob6"
                     }
                 ]
             },
@@ -132,13 +159,20 @@
                 store: [{
                         StoreName: "晶華藥局",
                         phone: "03-5502107",
-                        Addres: "新竹縣竹北市莊敬南路110號1樓"
+                        Addres: "新竹縣竹北市莊敬南路110號1樓",
+                        map: "https://goo.gl/maps/nMydv3r4fX2SqgDD6"
                     },
                     {
                         StoreName: "六久藥局",
                         phone: "035-557485",
+                        map: "https://goo.gl/maps/WcvztzBZ71XDB1RG6",
                         Addres: "新竹縣竹北市新社里華興街148號"
-                    }
+                    }, {
+                        StoreName: "方米藥局",
+                        phone: "03-5510015",
+                        Addres: "新竹縣竹北市博愛街511號",
+                        map: null
+                    },
                 ]
             }
         ],
@@ -196,21 +230,72 @@
         ],
 
         "南部": [{
+            city: '台南',
+            store: [{
+                    StoreName: "真安藥局",
+                    phone: "06-2819836",
+                    Addres: "台南市北區公園路698號",
+                    map: "https://goo.gl/maps/n4KCNmcDtNq7yYab8"
+                },
+                {
+                    StoreName: "祥好藥局",
+                    phone: "06-2510366",
+                    Addres: "台南市北區公園路876號",
+                    map: "https://goo.gl/maps/3YcHSZ1Tzd6WfY2b9"
+                },
+                {
+                    StoreName: "慧安藥局",
+                    phone: "06-7955535",
+                    Addres: "台南市西港區慶安路95之9號",
+                    map: "https://goo.gl/maps/Huo5H21RRGnRgJx16"
+                },
+                {
+                    StoreName: "李佳西藥房",
+                    phone: "06-7222243",
+                    Addres: "台南市佳里區文化路249號",
+                    map: "https://goo.gl/maps/5xZNGPaBWSEG3TBb6"
+                }
+            ]
+        }, {
             city: '高雄',
             store: [{
-                StoreName: "必昇藥局",
-                Addres: "高雄市小港區漢民路322號",
-                map: "https://goo.gl/maps/3egFJNzSiVAvqzmx6",
-                phone: "07-8069103"
-            }]
+                    StoreName: "必昇藥局",
+                    Addres: "高雄市小港區漢民路322號",
+                    map: "https://goo.gl/maps/3egFJNzSiVAvqzmx6",
+                    phone: "07-8069103"
+                }, {
+                    StoreName: "崇光藥局",
+                    phone: "07-3452211",
+                    Addres: "高雄市左營區華夏路755-1號",
+                    map: "https://goo.gl/maps/gEzuLPUXSF1KLDRs7"
+                },
+                {
+                    StoreName: "聖一健保藥局",
+                    phone: "07-3959300",
+                    Addres: "高雄市三民區鼎山街363號",
+                    map: "https://goo.gl/maps/y8DmGX86gDbAiDrG6"
+                }
+            ]
         }, {
             city: '屏東',
             store: [{
-                StoreName: "一二藥局",
-                Addres: "屏東市廣東路1094號",
-                map: "https://goo.gl/maps/wLvuushgj7thVgwj8",
-                phone: "08-7324688"
-            }]
+                    StoreName: "一二藥局",
+                    Addres: "屏東市廣東路1094號",
+                    map: "https://goo.gl/maps/wLvuushgj7thVgwj8",
+                    phone: "08-7324688"
+                }, {
+                    StoreName: "立健藥局",
+                    phone: "08-7328039",
+                    Addres: "屏東市勝利里廣東路962號",
+                    map: "https://goo.gl/maps/cd8sNQy6jeynXpMW9"
+                },
+                {
+                    StoreName: "永昇藥局",
+                    phone: "08-7210069",
+                    Addres: "屏東縣屏東市民生路18-11號",
+                    map: "https://goo.gl/maps/ZFfdrK47dJaxjDHH7"
+                }
+            ]
         }],
 
 
