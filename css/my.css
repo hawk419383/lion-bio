@@ -147,7 +147,7 @@ height: 2rem;
 	margin: 0 auto;
 	overflow: hidden; 
 	position: absolute;
-  background-color: rgba(242, 243, 241, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   bottom: 0;
   
 }
@@ -179,11 +179,11 @@ height: 2rem;
 	margin: 0 auto;
 	overflow: hidden; 
 	position: absolute;
-  background-color: rgba(70, 119, 37,.4);
+  background-color: rgba(134, 221, 75, 0.1);
   bottom: 0;
 }
-.marqee h3:hover a{
-  color: rgb(255, 255, 255);
+.marqee h3 a:hover {
+  color: rgb(43, 59, 41);
 
 }
 @keyframes marqee {
@@ -339,6 +339,14 @@ p ,li{
     #product-p{
       display: none;
     }
+    #fix{
+      position: fixed;
+     
+      right: 0;
+      bottom: 00%;
+      z-index: 5;
+      width: 12rem;
+    }
   }
   #buy{
     text-decoration: none;
@@ -369,5 +377,5 @@ p ,li{
   right: 0;
   bottom: 00%;
   z-index: 5;
-  width: 12rem;
+  width: 5rem;
 }
