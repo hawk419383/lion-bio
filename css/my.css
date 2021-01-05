@@ -1,7 +1,8 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family:cwTeXFangSong,cursive;
+  /* font-family:cwTeXFangSong,cursive; */
+  font-family: Microsoft JhengHei;
 }
 
 @font-face {
