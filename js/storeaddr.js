@@ -151,6 +151,36 @@
                         phone: "03-5325369",
                         Addres: "新竹市北區中正路389號",
                         map: "https://goo.gl/maps/baf5cdQpQsPt6mob6"
+                    },
+                    {
+                        StoreName: "好好藥局",
+                        phone: "03-5366996",
+                        Addres: "新竹市北區中福路83號",
+                        map: "https://goo.gl/maps/ErzU7XJ77V3SDere8"
+                    },
+                    {
+                        StoreName: "康博中西藥局",
+                        phone: "03-5191010",
+                        Addres: "新竹市東區明湖里明湖路446之4號",
+                        map: "https://goo.gl/maps/xkpzVHNyn5DBXn1E6"
+                    },
+                    {
+                        StoreName: "中和西藥房",
+                        phone: "03-5241602",
+                        Addres: "新竹市城北街56號",
+                        map: "https://goo.gl/maps/7Ej43zcC64kocg1A8"
+                    },
+                    {
+                        StoreName: "大庄藥局",
+                        phone: "03-5309901",
+                        Addres: "新竹市香山區香山里大庄路110號",
+                        map: "https://goo.gl/maps/tEYy4ChRivTMQBkh6"
+                    },
+                    {
+                        StoreName: "台安藥局",
+                        phone: "03-5245838",
+                        Addres: "新竹市北大路298號",
+                        map: "https://goo.gl/maps/DVpmmJwxwkhWHXTVA"
                     }
                 ]
             },
@@ -171,7 +201,7 @@
                         StoreName: "方米藥局",
                         phone: "03-5510015",
                         Addres: "新竹縣竹北市博愛街511號",
-                        map: null
+                        map: "https://goo.gl/maps/MuCCBtGht7ppKeFb8"
                     },
                 ]
             }
@@ -179,11 +209,18 @@
         "中部": [{
                 city: '苗栗',
                 store: [{
-                    StoreName: "崧博藥師藥局",
-                    phone: "0905-581913",
-                    map: "https://goo.gl/maps/NQ6dR8Ln3sgyD2L96",
-                    Addres: "苗栗縣竹南鎮龍山路三段37號"
-                }]
+                        StoreName: "崧博藥師藥局",
+                        phone: "0905-581913",
+                        map: "https://goo.gl/maps/NQ6dR8Ln3sgyD2L96",
+                        Addres: "苗栗縣竹南鎮龍山路三段37號"
+                    },
+                    {
+                        StoreName: "友一藥局 ",
+                        phone: "037-467776",
+                        Addres: "苗栗縣竹南鎮照南里一一鄰民族街一四六號",
+                        map: "https://goo.gl/maps/bRG9x4fvCstSmCW27"
+                    }
+                ]
             },
             {
 
@@ -274,6 +311,18 @@
                     phone: "07-3959300",
                     Addres: "高雄市三民區鼎山街363號",
                     map: "https://goo.gl/maps/y8DmGX86gDbAiDrG6"
+                },
+                {
+                    StoreName: "宗勳藥局",
+                    phone: "07-8034600",
+                    Addres: "高雄市小港區康莊路60號",
+                    map: "https://goo.gl/maps/LaxCBnDnbpNHaPWt7"
+                },
+                {
+                    StoreName: "康威藥局",
+                    phone: "07-3223189",
+                    Addres: "高雄市三民區九如二路301號",
+                    map: "https://goo.gl/maps/xV9nP2RNZt5nHryX7"
                 }
             ]
         }, {
@@ -294,7 +343,18 @@
                     phone: "08-7210069",
                     Addres: "屏東縣屏東市民生路18-11號",
                     map: "https://goo.gl/maps/ZFfdrK47dJaxjDHH7"
-                }
+                }, {
+                    StoreName: "信昌藥局",
+                    phone: "08-7397337",
+                    Addres: "屏東縣九如鄉九如路二段119號",
+                    map: "https://goo.gl/maps/AZjxKDFKBQkqyuYD9"
+                },
+                {
+                    StoreName: "弘英藥局",
+                    phone: "08-7366898",
+                    Addres: "屏東縣屏東市中正路702-11號",
+                    map: "https://goo.gl/maps/fhKiwAnpbFKFCpQh9"
+                },
             ]
         }],
 

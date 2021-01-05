@@ -8,6 +8,22 @@
     name="viewport"
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   >
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-161717991-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161717991-1');
+  </script>
+
   <!--php -S 0.0.0.0:5500
     https://2lv13pakkvqss3lxniszra-on.drv.tw/www/boot-->
   <link
@@ -68,8 +84,8 @@
     >
       <ul class="navbar-nav mx-auto">
         <!--          <li class="nav-item active">
-      <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
-    </li>-->
+        <a class="nav-link" href="/">首頁 <span class="sr-only">(current)</span></a>
+      </li>-->
         <li class="nav-item ">
 
           <a
@@ -178,12 +194,11 @@
           <a
             class="nav-link mx-auto font-weight-bold"
             href="Charitable activities.html"
-          >公益活動</a>
+          >各項活動</a>
         </li>
       </ul>
     </div>
   </nav>
-
   <div class="container p-3">
     <div class="row justify-content-center">
       <div class="col-10 mx-auto">

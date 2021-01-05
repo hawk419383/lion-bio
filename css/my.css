@@ -1,9 +1,19 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family:cwTeXFangSong,cursive;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@font-face {
+  font-family: 'cwTeXFangSong';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+}
 
 .jumbotron {
   /*background-color: #FFF;*/
@@ -137,7 +147,7 @@ height: 2rem;
 	margin: 0 auto;
 	overflow: hidden; 
 	position: absolute;
-  background-color: rgba(160, 248, 100, 0.4);
+  background-color: rgba(242, 243, 241, 0.5);
   bottom: 0;
   
 }
@@ -151,16 +161,30 @@ height: 2rem;
 .marqee h3 a{
   white-space: nowrap;
   margin-right: 2em;
-  color: #161210;
+  color: #be1d1d;
   text-decoration: none;
+  font-weight:bolder;
+  
   
 }
 .marqee h3:hover{
   animation-play-state: paused;
-
+ 
 
   
   
+}
+.marqee:hover {
+  height: 3em;
+	margin: 0 auto;
+	overflow: hidden; 
+	position: absolute;
+  background-color: rgba(70, 119, 37,.4);
+  bottom: 0;
+}
+.marqee h3:hover a{
+  color: rgb(255, 255, 255);
+
 }
 @keyframes marqee {
 	0% {
@@ -339,3 +363,11 @@ p ,li{
   #ch:hover:first-child{display: none;
 
   }
+#fix{
+  position: fixed;
+ 
+  right: 0;
+  bottom: 00%;
+  z-index: 5;
+  width: 12rem;
+}
